@@ -1,8 +1,11 @@
 package Text::Anagram;
 use Exporter 'import';
-use Modern::Perl;
+use strict;
+use warnings;
+use 5.12.0;
 our @EXPORT_OK = qw< anagram >;
 our $VERSION   = '0.0';
+
 # ABSTRACT: do something with every anagram of a text
 
 =head1 DON'T
