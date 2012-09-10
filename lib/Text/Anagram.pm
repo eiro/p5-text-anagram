@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use 5.12.0;
 our @EXPORT_OK = qw< anagram >;
-our $VERSION   = '0.0';
+our $VERSION   = '0.2';
 
 # ABSTRACT: do something with every anagram of a text
 
@@ -14,7 +14,6 @@ this release is usable but far from a definitive API. don't use in production
 
 =head1 SYNOPSIS
 
-    use Modern::Perl;
     use Text::Anagram qw< anagram >;
 
     anagram { say } "bob";
@@ -23,7 +22,6 @@ this release is usable but far from a definitive API. don't use in production
 
 add a callback to stop a branch of solution
 
-    use Modern::Perl;
     use Text::Anagram qw< anagram >;
 
     anagram "bob"
@@ -34,6 +32,10 @@ also
 
     * localize stuff to run anagrams in anagrams
     * compare anything (not only char) ? 
+
+=head1 Fork me! 
+
+L<https://github.com/eiro/p5-text-anagram>
 
 =cut 
 
