@@ -1,10 +1,11 @@
 package Text::Anagram;
-use Exporter 'import';
+
+use 5.006;
+use base 'Exporter';
 use strict;
 use warnings;
-use 5.12.0;
 our @EXPORT_OK = qw< anagram >;
-our $VERSION   = '0.2';
+our $VERSION   = '0.4';
 
 # ABSTRACT: do something with every anagram of a text
 
