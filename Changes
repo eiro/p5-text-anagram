@@ -1,6 +1,8 @@
 Revision history for Perl module Text::Anagram
 
 0.4 2014-
+    - Changed dist name from text-anagram to Text-Anagram, following the
+      convention where the dist name should be based on the lead module name.
     - Added Changes file
 
 0.3 2012-09-10 MARCC
