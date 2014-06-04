@@ -9,9 +9,9 @@ our $VERSION   = '0.4';
 
 # ABSTRACT: do something with every anagram of a text
 
-=head1 DON'T
+=head1 NAME
 
-this release is usable but far from a definitive API. don't use in production
+Text::Anagram - call user function with all anagrams of supplied text
 
 =head1 SYNOPSIS
 
@@ -19,9 +19,17 @@ this release is usable but far from a definitive API. don't use in production
 
     anagram { say } "bob";
 
+=head1 DESCRIPTION
+
+Text::Anagram provides a function C<anagram> which generates all
+anagrams of a text string, and invokes a user-supplied function
+with each permutation.
+
+This release is usable but far from a definitive API. Don't use in production.
+
 =head1 FUTURE
 
-add a callback to stop a branch of solution
+Add a callback to stop a branch of solution
 
     use Text::Anagram qw< anagram >;
 
@@ -33,6 +41,10 @@ also
 
     * localize stuff to run anagrams in anagrams
     * compare anything (not only char) ? 
+
+=head1 SEE ALSO
+
+L<Word::Anagram>, L<Lingua::Anagrams>.
 
 =head1 Fork me! 
 
@@ -57,3 +69,15 @@ sub anagram (&$) {
 }
 
 1;
+
+=head1 AUTHOR
+
+Marc Chantreux E<lt>marcc@cpan.orgE<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Marc Chantreux E<lt>marcc@cpan.orgE<gt>.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
