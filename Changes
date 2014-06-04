@@ -7,6 +7,7 @@ Revision history for Perl module Text::Anagram
     - Added Changes file
     - Updated pod doc to follow usual conventions
     - Added strict and warnings to test
+    - Added [AutoPrereqs] and [GithubMeta] to dist.ini
 
 0.3 2012-09-10 MARCC
     - Dropped use of Modern::Perl from testsuite
