@@ -8,10 +8,12 @@ Revision history for Perl module Text::Anagram
     - Added strict and warnings to test
 
 0.3 2012-09-10 MARCC
+    - Dropped use of Modern::Perl from testsuite
 
 0.2 2012-09-10 MARCC
 
 0.1 2012-09-05 MARCC
+    - Dropped use of Modern::Perl from Text/Anagram.pm
 
 0.0 2012-06-09 MARCC
     - First release to CPAN
