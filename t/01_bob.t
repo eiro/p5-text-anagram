@@ -1,4 +1,9 @@
 #! /usr/bin/perl
+
+use 5.006;
+use strict;
+use warnings;
+
 use Test::More tests => 2;
 use Text::Anagram;
 

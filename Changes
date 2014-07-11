@@ -1,0 +1,21 @@
+Revision history for Perl module Text::Anagram
+
+0.4 2014-
+    - Changed dist name from text-anagram to Text-Anagram, following the
+      convention where the dist name should be based on the lead module name.
+    - Was requiring 5.12.0 but actually works fine under 5.6
+    - Added Changes file
+    - Updated pod doc to follow usual conventions
+    - Added strict and warnings to test
+    - Added [AutoPrereqs] and [GithubMeta] to dist.ini
+
+0.3 2012-09-10 MARCC
+    - Dropped use of Modern::Perl from testsuite
+
+0.2 2012-09-10 MARCC
+
+0.1 2012-09-05 MARCC
+    - Dropped use of Modern::Perl from Text/Anagram.pm
+
+0.0 2012-06-09 MARCC
+    - First release to CPAN
