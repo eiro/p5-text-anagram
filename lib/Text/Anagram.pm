@@ -72,7 +72,12 @@ sub anagram (&$) {
 
 =head1 AUTHOR
 
-Marc Chantreux E<lt>marcc@cpan.orgE<gt>
+Marc Chantreux E<lt>marcc@cpan.orgE<gt> 
+
+=head1 CONTRIBUTORS 
+
+Neil Bowers E<lt>neilb@cpan.orgE<gt>: lot of packaging and documentation improvements. 
+
 
 =head1 COPYRIGHT AND LICENSE
 
